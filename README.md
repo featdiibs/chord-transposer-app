@@ -6,7 +6,7 @@ It allows users to easily transpose chords between musical keys — useful for s
 Features
 
 Transpose chords up or down by semitones or by selecting preferred scale.
-Supports both forcing sharps (♯) and flats (♭). [ Select the one you are comfortable with]
+Supports forcing sharps (♯) and flats (♭). [ Select the one you are comfortable with]
 Works fully offline once installed.
 
 Built With
