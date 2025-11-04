@@ -18,7 +18,7 @@ WebView for rendering the interface
 Installation
 
 Download the latest app-debug.apk file from the Releases section.
-Install it on your Android device.
+Install it on your Android device. “Install from Unknown Sources” should be enabled.
 Open and start transposing instantly.
 
 Developed by [Dibyajyoti Deka](https://featdiibs.github.io/)
