@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chords Transposer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎵 Chords Transposer</h1>
+
+  <textarea id="inputArea" placeholder="Paste your chords & lyrics here (supports bracketed/inline chords and slash bass chords)."></textarea>
+
+  <div class="controls">
+    <label>Original Key:</label>
+    <select id="originalKey"></select>
+
+    <label>Transposed Key:</label>
+    <select id="transposedKey"></select>
+
+    <div class="notation-toggle" id="notationToggle" title="Display sharps or flats">
+      <span id="sharpToggle" class="active">♯</span>
+      <span id="flatToggle">♭</span>
+    </div>
+
+    <button id="detectKeyBtn" class="ghost">Detect Key</button>
+    <button id="transposeBtn">Transpose</button>
+
+    <button id="minusBtn" class="ghost">−</button>
+    <input type="number" id="semitoneInput" value="0" style="width:80px; text-align:center;">
+    <button id="plusBtn" class="ghost">+</button>
+  </div>
+
+  <div id="outputPreview" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
