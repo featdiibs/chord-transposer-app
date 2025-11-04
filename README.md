@@ -1,6 +1,6 @@
 Chord Transposer App
 
-Chord Transposer App is the Android version of my Simple Chord Transposer Web App.
+Chord Transposer App is the Android version of my [Simple Chord Transposer Web App.](https://github.com/featdiibs/simple-chord-transposer)
 It allows users to easily transpose chords between musical keys — useful for singers, guitarists, and musicians of all kinds.
 
 Features
@@ -21,6 +21,8 @@ Download the latest app-debug.apk file from the Releases section.
 Install it on your Android device.
 Open and start transposing instantly.
 
+Developed by [Dibyajyoti Deka](https://featdiibs.github.io/)
+
 License
 
-Licensed under the MIT License. See LICENSE for more details.
+Licensed under the MIT License. See [LICENSE](https://github.com/featdiibs/chord-transposer-app/blob/main/LICENSE) for more details.
